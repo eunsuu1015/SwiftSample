@@ -12,10 +12,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var progress: UIProgressView!
     @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        getTest()
-//        postTest()
+        getTest()
+        postTest()
         downloadTest()
     }
     
